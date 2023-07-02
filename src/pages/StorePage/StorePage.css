@@ -1,0 +1,249 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    background-image: url('back1.png');
+    background-size: cover;
+}
+
+.header {
+    position: relative;
+    padding: 0 2rem;
+    padding-top: 70px;
+
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+.header-search {
+    background-color: white;
+    border-radius: 10px;
+    gap: 15px;
+    padding: 5px;
+    flex-shrink: 0;
+    width: 80%;
+    max-width: 1000px;
+    height: 40px;
+
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-shrink: 5;
+}
+.header-search-pic {
+    padding-left: 15px;
+    width: 100px;
+
+}
+.header-search-title {
+    margin: 5px;
+    color: #858383;
+    font-style: normal;
+    line-height: 134%;
+    width: 150%;
+
+    display: flex;
+}
+.search {
+    display: flex;
+    border: none;
+    width: 100%;
+    /* max-width: 1000px; */
+}
+.header-wallet {
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .2);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-wallet-address {
+    margin: 7px;
+    padding-left: 10px;
+
+    display: flex;
+}
+.header-wallet-pic {
+    padding-left: 10px;
+    width: 100%;
+
+    display: flex;
+}
+.ava{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border: none;
+    border-radius: 50%;
+
+    width: 25px;
+    height: 25px;
+    
+    background-image: url('mesh-gradient\ \(2\)\ 1.png');
+    background-size: cover;
+}
+.header-market-pic {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.market{
+    width: 50%;
+    height: 45px;
+    position: relative;
+   
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .2);
+    align-items: center;
+}
+
+.main{
+    padding: 30px;
+
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    align-items: baseline;
+    gap: 30px;
+}
+
+.main-wallet {
+    width: 30%;
+    height: 325px;
+    background: rgba(255, 255, 255, 0.1);
+
+    border-radius: 10px;
+    border: solid 2px white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.wallet-pic {
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+
+    width: 125px;
+    height: 125px;
+    
+    background-image: url('mesh-gradient\ \(2\)\ 1.png');
+    background-size: cover;
+}
+.wallet-address {
+    padding: auto;
+}
+.wallet-balance {
+    padding: 5px;
+}
+.wallet-progress {
+    padding: 5px;
+    font-size: smaller;
+}
+
+
+a{
+    text-decoration: none;
+    color: white
+    ;
+}
+li{
+    list-style: none
+}
+
+.main-market {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main-market-title {
+    font-size: 400%;
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    line-height: 134%;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+    display: flex;
+}
+.main-market-head {
+    background: rgba(255, 255, 255, .2);
+    border: none;
+    border-radius: 5px;
+
+    position: relative;
+    padding: 0 2rem;
+
+    margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    max-width: 1200px;
+    align-items: center;
+}
+.market-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.main-market-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    padding: 30px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.topic{
+    background-size: cover;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.topic-pic {
+    width: 100%;
+    height: 150px;
+}
+.topic-title {
+    align-items: center;
+    padding: 15px;
+
+}
+.topic-desc {
+    align-items: center;
+    padding: 15px;
+}
